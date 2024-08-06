@@ -1,0 +1,37 @@
+'''
+=================================================
+Milestone 3
+
+Nama  : Achmad Abdillah Ghifari
+Batch : FTDS-006-BSD
+
+This file is used to answer the conceptual problem regarding the topic of this assignment. the conceptual problem explore topic such as nosql, rdbms, batch processing, great expectation, airflow, and more
+
+=================================================
+'''
+
+Conceptual Problem
+
+# part 1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+
+Nosql or not only sql is a database used to enable storage and querying of data outside of the traditional structures found in relational databases.nosql also has many features such as flexible schemas, horizontal scaling, fast queries, and ease of use. another feature of nosql is that the information of the database is copied to various server which ensures availability and reliability of data
+
+# part 2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+
+RDBMS or relational database management system is another type of database that uses SQL as the standard language for querying. people usually use nosql when they are doing a fast paced agile development, dealing with huge volume of data, or the data require a scale-out architecture. while nosql has its advantage people could also prefer to use RDBMS when the company has mainly high structured data, doesnt expect high growth, and requires a high level of data integrity-security-compliance. in this case RDBMS might be better as RDBMS could excel better than nosql in this case.
+
+# part 3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+
+in nosql there is many tools that is frequently used for data science project. two major one apart from elasticsearch is mongodb and cassandra. Mongodb is an open source document oriented database that stores data in json format and the most commonly used database apart from elasticsearch. the advantage of using this tool is for its high availability and scalibility, it also has auto-sharing and built-in replication. another tool is cassandra which is mainly used to distribute data across multiple machine. the advantage of using this tool is for its scalability, exceptional technical capabilities, and it supports for most modern application requirements.
+
+# part 4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+
+airflow is an platform used to develop, schedule, and monitor workflow using python framework. it used to build a workflow to connect multiple processes using a web interface. airflow is used in order to easily schedule and execute tasks. the advantage of airflow is for their customizability with tasks such as automatic retrying and inspecting logs. despite this airflow only work for finite batch so some other streaming system might be better for bigger batch workflow
+
+# part 5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+
+great expectation is a phyton library that is used for the process of defining, managing, and validating expectations of the dataset. it is used to provide a flexible way to check the quality of the data using various expectations to ensure the accuracy and consistency of the data. the way to use great expectation is to define a set of expectation of the data and python will automatically check the data against the expectation regularly. the advantage of great expectations is its simple to use and could automatically perform check. but the disadvantage of great expectation is its limited data source support as great expectation might not be compatible with all data type.   
+
+# part 6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+
+batch processing is a method used to periodically process data where a batch of transaction are periodically complete high volume and repetitive data jobs. an example use case for batch processing is to handle large amount of inventory by helping in the sorting and adding of inventory, it can also be used for billing and also report generation aswell. there are many tools in batch processing, some of these tools are apache spark (fast and flexible), apache flink (strong and real-time), apache airflow(scheduling data), and many more tools. the advantage of batch processing is for its capability to handle large data more effectively. while the disadvantage of batch processing is large dataset might take a long time and require a capable system to do.
